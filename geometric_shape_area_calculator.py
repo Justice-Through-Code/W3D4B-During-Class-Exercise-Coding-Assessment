@@ -17,7 +17,8 @@ def main():
         # TODO: Assign a new variable named 'radius' and ask for the user's input for the radius of the circle.
         # TODO: Assign a new variable named 'area' and implement the logic to calculate the area of a circle.
         # TODO: Convert 'radius' to float.
-        # HINT: The area of a circle: 'circle_pi' times radius squared
+        # HINT 1 : The formula to find area of a circle: 'circle_pi' times radius squared.  
+        # Hint 2 : circle_pi is a variable that has been assigned on Line 9 and equals Pi in math.  
 
 
     elif choice == 2: # DO NOT MODIFY
@@ -25,14 +26,14 @@ def main():
         # TODO: Assign new variables 'length' and 'width' and ask for the user's input for the length and width of the rectangle.
         # TODO: Convert both 'length' and 'width' to float.
         # TODO: Assign a new variable 'area' and implement the logic to calculate the area of a rectangle.
-        # HINT: The formula for the area of a rectangle: length times width
+        # HINT: The formula to find the area of a rectangle: length times width
 
     elif choice == 3: # DO NOT MODIFY
         # Calculate the area of a triangle
         # TODO: Assign new variables 'base' and 'height' and ask for the user's input for the base length and height of the triangle.
         # TODO: Convert both 'base' and 'height' to float.
         # TODO: Assign a new variable 'area' and implement the logic to calculate the area of a triangle.
-        # HINT: The area of a Triangle: half times base times height
+        # HINT: The formula to find the area of a Triangle: half times base times height
 
 
     else:
