@@ -1,7 +1,8 @@
 import math # DO NOT MODIFY
 
 def main():
-    print("Welcome to the Geometric Shape Area Calculator!") # DO NOT MODIFY
+    # TODO: print a unique welcome statement to your user
+   
     print("Circle = 1") # DO NOT MODIFY
     print("Rectangle = 2") # DO NOT MODIFY
     print("Triangle = 3")# DO NOT MODIFY
