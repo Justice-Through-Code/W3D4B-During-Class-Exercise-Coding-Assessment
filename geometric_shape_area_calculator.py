@@ -4,9 +4,10 @@ import math # DO NOT MODIFY
 
 def main():
     # TODO: In terminal, print a unique welcome message to your user
-    # TODO: In terminal, print a message to the user that "Circle = 1"
-    # TODO: In terminal, print a message to the user that "Rectangle = 2"
-    # TODO: In terminal, print a message to the user that "Triangle = 3"
+    # TODO: Using concatenation for the three options noted, in the terminal print a 1-line message to the user that shows:
+    # Circle = 1
+    # Rectangle = 2
+    # Triangle = 3
 
     # TODO: In terminal, ask the user "Select a shape by entering 1, 2, or 3' and assign the input to a new variable named 'choice'.
     # TODO: Convert the variable 'choice' to an integer data type.
