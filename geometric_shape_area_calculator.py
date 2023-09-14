@@ -4,6 +4,7 @@ import math # DO NOT MODIFY
 
 def main():
     # TODO: In terminal, print a unique welcome message to your user
+    
     # TODO: Using concatenation for the three options noted, in the terminal print a 1-line message to the user that shows:
     # Circle = 1
     # Rectangle = 2
