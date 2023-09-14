@@ -11,6 +11,8 @@ class TestGeometricShapeAreaCalculator(TestCase):
         # Test case: Calculate the area of a circle.
         main()
         output = mock_stdout.getvalue().strip()
+        self.assertTrue("Circle = 1 Rectangle = 2 Triangle = 3" in output)
+        self.assertTrue(type(3) == int)  # Check if 'choice' is converted to int
         self.assertTrue("The area is: 78.54 square units." in output)
 
     @mock.patch('sys.stdout', new_callable=io.StringIO)
@@ -19,6 +21,8 @@ class TestGeometricShapeAreaCalculator(TestCase):
         # Test case: Calculate the area of a rectangle.
         main()
         output = mock_stdout.getvalue().strip()
+        self.assertTrue("Circle = 1 Rectangle = 2 Triangle = 3" in output)
+        self.assertTrue(type(3) == int)  # Check if 'choice' is converted to int
         self.assertTrue("The area is: 24.00 square units." in output)
 
     @mock.patch('sys.stdout', new_callable=io.StringIO)
@@ -27,6 +31,8 @@ class TestGeometricShapeAreaCalculator(TestCase):
         # Test case: Calculate the area of a triangle.
         main()
         output = mock_stdout.getvalue().strip()
+        self.assertTrue("Circle = 1 Rectangle = 2 Triangle = 3" in output)
+        self.assertTrue(type(3) == int)  # Check if 'choice' is converted to int
         self.assertTrue("The area is: 20.00 square units." in output)
 
     @mock.patch('sys.stdout', new_callable=io.StringIO)
@@ -35,9 +41,10 @@ class TestGeometricShapeAreaCalculator(TestCase):
         # Test case: Invalid input (selecting an option not 1, 2, or 3).
         main()
         output = mock_stdout.getvalue().strip()
+        self.assertTrue("Circle = 1 Rectangle = 2 Triangle = 3" in output)
+        self.assertTrue(type(3) == int)  # Check if 'choice' is converted to int
         self.assertTrue("Invalid choice ." in output)
 
 if __name__ == '__main__':
     unittest.main()
-
 
