@@ -46,7 +46,7 @@ REMEMBER: Comment out or delete the calls to your functions -- the test will not
 9. The status in Canvas does not change to Complete until an Instructor has reviewed your assignment. This process is similar to the Code review process in a real work scenario. A code review by an instructor or a senior developer after unit tests pass is an important step in the software development process. It helps ensure that the code not only functions correctly but also adheres to best practices, coding standards, and maintainability guidelines.
 
 10. Paste into your Canvas Submission: 
-    Create a screenshot of your terminal showing the results of your unit test.
-    Github exercise URL
+    A. Create a screenshot of your terminal showing the results of your unit test.
+    B.  Github exercise URL
 
 Submit and then you are set!
