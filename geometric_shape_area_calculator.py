@@ -5,10 +5,16 @@ import math # DO NOT MODIFY
 def main():
     # TODO: In terminal, print a unique welcome message to your user
     
-    # TODO: Using concatenation for the three options noted, in the terminal print a 1-line message to the user that shows:
+    # User Options = 
     # Circle = 1
     # Rectangle = 2
     # Triangle = 3
+    
+    # TODO: Using one print statement, use string concatenation to print the options
+    # as a single string (make sure to add a space between each option)
+
+    # TODO:Using one print statement, use an f-string to print the options
+    # as a string (make sure to add a space between each option)
 
     # TODO: In terminal, ask the user "Select a shape by entering 1, 2, or 3' and assign the input to a new variable named 'choice'.
     # TODO: Convert the variable 'choice' to an integer data type.
